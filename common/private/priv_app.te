@@ -5,3 +5,6 @@ set_prop(priv_app, theme_prop)
 
 # Allow Settings to read theme_prop
 get_prop(priv_app, theme_prop)
+
+# DC Dimming Service
+allow priv_app sysfs_dc_dim:file rw_file_perms;
